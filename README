@@ -1,0 +1,10 @@
+bbTouch 
+
+bbTouch is a plugin for bbPress <http://bbpress.org>.
+bbTouch formats your bbPress with a mobile theme for Mobile WebKit Browser.  
+
+Thanks to:
+- WPTouch <http://wordpress.org/extend/plugins/wptouch/>
+- UiUIKit <http://code.google.com/p/iphone-universal/>
+- iWebKit <http://iwebkit.net/>
+

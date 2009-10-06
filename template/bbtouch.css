@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+}
+
+body {
+    position: relative;
+    min-height: 416px;
+    font-family: helvetica,sans-serif;
+    -webkit-text-size-adjust: none;
+}
+
+h2 {
+    clear: both;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+/**
+ * list menu parts
+ */
+li.menu {
+    display: block;
+    width: auto;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li.menu a {
+    display: block;
+    width: auto;
+    overflow: hidden;
+}
+
+li.menu span.name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+li.menu span.comment {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/**
+ * button menu parts
+ */
+li.button {
+    float: left;
+    display: block;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li.button a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/**
+ * pagination parts
+ */
+.pagination {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.pagination .page-numbers {
+    margin: 0 5px;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+}
+
+.pagination span.page-numbers.current {
+    color: #eee;
+    background-color: #333;
+    text-decoration: none;
+}
+
+.pagination a.page-numbers {
+    color: #333;
+    background-color: #eee;
+    text-decoration: none;
+}
+
+/**
+ * form parts
+ */
+fieldset {
+    border: none;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+}
+
+ul.form {
+    list-style: none;
+}
+
+ul.form li {
+    margin: 10px 0;
+}
+
+/**
+ * header area
+ */
+#header {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 45px;
+}
+
+#header a {
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+    background-color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#header h1, #header h1 a {
+    color: #fff;
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+/**
+ * navigation area
+ */
+#navigation {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 45px;
+    list-style: none;
+}
+
+#navigation li.button {
+    margin: 5px;
+    width: auto;
+    max-width: 50%;
+    height: 35px;
+}
+
+#navigation li.button a {
+    padding: 10px;
+    color: #333;
+    font-size: 12pt;
+    background-color: #eee;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+}
+
+/**
+ * content area
+ */
+#content {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 250px;
+    height: auto;
+}
+
+/**
+ * footer area
+ */
+#footer {
+    margin: 20px 10px 0;
+    color: #999;
+    font-size: 9pt;
+    text-align: center;
+}
+
+#footer, #footer a {
+    text-decoration: none;
+}
+
+/**
+ * menu list 
+ */
+.menu-list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+    font-size: 12pt;
+}
+
+.menu-list li.menu {
+    margin: 5px 0;
+    height: 45px;
+}
+
+.menu-list li.menu a {
+    color: #333;
+    background: #eee url("images/arrow.png") 99% 50% no-repeat;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+}
+
+.menu-list li span.name {
+    padding-left: 10px;
+    float: left;
+    width: auto;
+    max-width: 60%;
+    height: 45px;
+    line-height: 45px;
+}
+
+.menu-list li span.comment {
+    margin-right: 20px;
+    float: right;
+    height: 45px;
+    max-width: 60%;
+    line-height: 45px;
+    color: #999;
+}
+
+/*
+ * greeting area
+ */
+#greeting {
+    margin: 0 0 20px 0;
+    padding: 0;
+    height: 48px;
+    display: block;
+    list-style: none;
+}
+
+#greeting li {
+}
+
+#greeting #avatar {
+    float: left;
+    margin-right: 5px;
+    height: 48px;
+}
+
+#greeting #message {
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+#greeting #logout {
+    height: 16px;
+    line-height: 16px;
+}
+
+#greeting #logout a {
+    font-size: 9pt;
+    text-decoration: none;
+}
+
+/*
+ * topic page 
+ */
+#topic {
+    margin-bottom: 20px;
+}
+
+.topic-meta {
+    color: #999;
+    font-size: 9pt;
+}
+
+#post-list {
+    margin-bottom: 20px;
+}
+
+ul.post {
+    margin: 5px 0;
+    padding: 10px;
+    list-style: none;
+    background-color: #eee;
+    -webkit-border-radius: 3px;
+}
+
+li.post-avatar {
+    margin-right: 5px;
+    float: left;
+    height: 48px;
+}
+
+li.post-author {
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+li.post-meta {
+    height: 16px;
+    line-height: 16px;
+    color: #999;
+    font-size: 9pt;
+}
+
+li.post-text {
+    margin-top: 10px;
+    clear: both;
+}
+
+li.post-text ul,
+li.post-text ol {
+    margin-left: 15px;
+}
+
+#post-form {
+}
+
+#post-form input[type=submit] {
+    float: right;
+}
+
+/**
+ * forum page
+ */
+#topic-list {
+    margin-bottom: 20px;
+}
+
+/**
+ * post form
+ */
+
+input#topic {
+    width: 100%;
+    font-size: 18pt;
+}
+
+textarea#post_content {
+    width: 100%;
+    font-size: 18pt;
+}
+
+/**
+ * login form
+ */
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    font-size: 18pt;
+}
+
+#login-form input[type="submit"] {
+    float: right;
+}
+
